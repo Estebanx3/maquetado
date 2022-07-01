@@ -1,0 +1,90 @@
+body{
+	background-color: #483d3e;
+}
+#logo{
+	width: 235px;
+	height: 79px;
+	background: url(imagenes/logo.png);
+	font-size: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	top: 8px;
+	left: 0.75 rem;
+}
+
+@media screen and (max-width: 991px){
+	#logo{
+		left: calc(50% - 20px);
+	}
+}
+header{
+	background-color: #c02e3c;
+}
+.fondo1{
+	background: indianred;
+}
+.fondo2 {
+	background: darkred;
+}
+.fondo3 {
+	background: #b81b1b;
+}
+.fondo4{
+	background: #d0d0d0;
+}
+header h1{
+	color: White;
+	font-family: Verdana;
+}
+
+article{
+	margin: 20px;
+}
+article h6{
+	text-align: center;
+}
+div{
+	padding: 10px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 00.3rem;
+    background-color: indianred;
+    font-size: 1rem;
+    margin: 10px;
+}
+
+#nombre {
+    list-style: none;
+    padding: 0.5rem ;
+    margin: 0.5rem ;
+    justify-content: space-evenly;
+    text-align: center;
+    color: black;
+
+}
+
+#redes {
+        max-width: 200px;
+        min-width: 100px ;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        margin: auto ;
+        padding: 2rem 0;
+        justify-content: space-evenly;
+    }
+  #yt {
+    line-height: 0;
+    width: calc(100vw - 4px - 2rem - 17px);
+    height: calc((100vw - 4px - 2rem - 17px)* 384 / 683);
+    max-width: 683px;
+    max-height: 384px;
+    margin: auto;
+    padding: 0 1em;
+    position: relative; 
+}
+
